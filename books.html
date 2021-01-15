@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brianna Shrum books</title>
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+    
+    <script id="navigation" type="text/x-handlebars-template">
+        <nav>
+            <div class="dropdown">
+                <a href="./about.html">{{about}}</a>
+                <div class="dropdown-content" id="about-dropdown">
+                    <a href="./about.html">{{bio}}</a>
+                    <a href="content.html">{{contentWarnings}}</a>
+                    <a href="./tropes.html">{{tropes}}</a>
+                    <a href="./press.html">{{pressKit}}</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="./books.html">{{books}}</a>
+                <div class="dropdown-content" id="book-dropdown">
+                    <a href="./books/liar.html">{{liar}}</a>
+                    <a href="./books/ezra.html">{{ezra}}</a>
+                    <a href="./books/french.html">{{french}}</a>
+                    <a href="./books/howto.html">{{makeOut}}</a>
+                    <a href="./books/never.html">{{never}}</a>
+                </div>
+            </div>
+            <a href="./contact.html">{{contact}}</a>
+            <a href="events.html">{{news}}</a>
+            <a href="./classes.html">{{classes}}</a>
+        </nav>
+    </script>
+
+</head>
+
+<body class="change">
+
+    <div class="top">
+        <div class="social-media">
+            <a href="https://twitter.com/BriannaShrum" target="blank" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/bchrumby/" target="blank" class="fa fa-instagram"></a>
+            <a href="https://www.pinterest.com/bchrumby/" target="blank" class="fa fa-pinterest"></a>
+        </div>
+            
+        <header>
+            <a id="away-name" href="./index.html">Brianna Shrum</a>
+        </header>
+
+        <div id="scream">
+
+        </div>
+    </div>
+
+    <main class="book-main">
+
+        <a href="books/liar.html"><img src="resources/images/Books/Liar.jpg"></a>
+        <a href="books/ezra.html"><img src="resources/images/Books/Ezra.jpg"></a>
+        <a href="books/french.html"><img src="resources/images/Books/French.jpg"></a>
+        <a href="books/howto.html"><img src="resources/images/Books/HowTo.jpg"></a>
+        <a href="books/never.html"><img src="resources/images/Books/Never.jpg"></a>
+        
+    </main>
+
+    <script src="resources/javascript/main.js" type="text/javascript"></script>
+
+</body>
+
+</html>
